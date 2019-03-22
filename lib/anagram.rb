@@ -17,7 +17,7 @@ class Anagram
   def match(compare_words)
     compare_words.each do |comp_word|
     binding.pry
-    %wcomp_word.sort == %w@word.sort
+    wcomp_word.sort == @word.sort
     
     end 
   
