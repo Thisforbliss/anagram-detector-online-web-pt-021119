@@ -14,8 +14,8 @@ class Anagram
   def match(compare_words)
     compare_words.each do |comp_word|
    
-    comp_word.sort == @word.sort
-     binding.pry
+    comp_word.split("").sort == @word.split("").sort
+     #binding.pry
     end 
   
   end 
