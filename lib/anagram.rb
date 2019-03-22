@@ -7,10 +7,7 @@ class Anagram
   #binding.pry
   end 
   
-  def sort 
- 
-  end 
-  
+
   
   
   
