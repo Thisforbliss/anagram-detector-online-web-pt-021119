@@ -12,11 +12,12 @@ class Anagram
   
   
   def match(compare_words)
+    new_ana= []
     compare_words.each do |comp_word|
-   
-    comp_word.split("").sort == @word.split("").sort
-     #binding.pry
-    end 
-  
+      if comp_word.split("").sort == @word.split("").sort
+        new_ana << comp_word
+      end 
+    end
+    new_ana
   end 
 end
